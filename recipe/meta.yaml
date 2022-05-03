@@ -1,4 +1,4 @@
-{% set version = "1.3.0" %}
+{% set version = "1.5.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plsRglm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plsRglm/plsRglm_{{ version }}.tar.gz
-  sha256: 59ef5e7177771e4f17c2854862344a26d8e633d2d9d80156e0f09087e544fdeb
+  sha256: 9a1e678b4d688b69ef68246d0114c8737ed84e26cde1863e5cbac9603ca2eb83
 
 build:
   merge_build_host: true  # [win]
