@@ -1,11 +1,11 @@
-About r-plsrglm
-===============
+About r-plsrglm-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plsrglm-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www-irma.u-strasbg.fr/~fbertran/, https://github.com/fbertran/plsRglm
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plsrglm-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides (weighted) Partial least squares Regression for generalized linear models and repeated k-fold cross-validation of such models using various criteria. It allows for missing data in the explanatory variables. Bootstrap confidence intervals constructions are also available.
 
