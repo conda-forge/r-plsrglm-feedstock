@@ -1,4 +1,4 @@
-{% set version = "1.5.1" %}
+{% set version = "1.6.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 package:
@@ -8,10 +8,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plsRglm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plsRglm/plsRglm_{{ version }}.tar.gz
-  sha256: 19afb0caf608211dfb64627b36518088fad215c12b0deb85a1b9c54a7e26eef6
+  sha256: 6d2941a8056db95082506702c226ffca6c7ed7818c6a7857af743c667f28624e
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
